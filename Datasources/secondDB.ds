@@ -1,0 +1,39 @@
+{
+    "webServiceContent": [
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:41:53.437\",\"methodProperties\":{\"operation\":\"INSERT\",\"columns\":[{\"name\":\"Approver_Name\",\"isPrimaryKey\":true,\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"Approver_Email\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"PassCode\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"ApproverDetails\",\"selected\":false}},\"name\":\"insertApproverDetails\",\"datasourceId\":\"1eb765cb-2618-43aa-b597-50d1009d954a\",\"id\":\"2870c454-4d5c-4bf8-abf2-d43fd812df98\",\"functionMeta\":{\"name\":\"insertApproverDetails\",\"functionUrl\":\"/insertApproverDetails\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"POST\",\"body\":[{\"paramLocation\":1,\"value\":\"\",\"key\":\"Approver_Name\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"Approver_Email\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"PassCode\",\"allowOverride\":true}],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"secondDB\",\"createdOn\":\"2021-01-22 15:41:53.437\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:41:53.639\",\"methodProperties\":{\"operation\":\"SELECT\",\"columns\":[{\"name\":\"Approver_Name\",\"isPrimaryKey\":true,\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"Approver_Email\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"PassCode\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"ApproverDetails\",\"selected\":false}},\"name\":\"selectAllApproverDetails\",\"datasourceId\":\"1eb765cb-2618-43aa-b597-50d1009d954a\",\"id\":\"19a86831-24f8-4236-9bdf-5eb9e342bc91\",\"functionMeta\":{\"name\":\"selectAllApproverDetails\",\"functionUrl\":\"/selectAllApproverDetails\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"secondDB\",\"createdOn\":\"2021-01-22 15:41:53.639\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:41:53.803\",\"methodProperties\":{\"filters\":[{\"name\":\"Approver_Name\",\"isPrimaryKey\":true,\"nullable\":false,\"type\":\"VARCHAR\",\"operator\":\"EQ\",\"autoIncrement\":false}],\"operation\":\"UPDATE\",\"columns\":[{\"name\":\"Approver_Name\",\"isPrimaryKey\":true,\"nullable\":false,\"type\":\"VARCHAR\",\"operator\":\"EQ\",\"autoIncrement\":false},{\"name\":\"Approver_Email\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"PassCode\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"ApproverDetails\",\"selected\":false}},\"name\":\"updateApproverDetails\",\"datasourceId\":\"1eb765cb-2618-43aa-b597-50d1009d954a\",\"id\":\"a7dc517f-c549-4ab4-9ad1-d0c2801fac97\",\"functionMeta\":{\"name\":\"updateApproverDetails\",\"functionUrl\":\"/updateApproverDetails\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"PUT\",\"body\":[{\"paramLocation\":1,\"value\":\"\",\"key\":\"Approver_Name\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"Approver_Email\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"PassCode\",\"allowOverride\":true}],\"parameters\":[{\"paramLocation\":1,\"type\":\"Query\",\"value\":\"\",\"key\":\"Approver_Name\",\"allowOverride\":true}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"secondDB\",\"createdOn\":\"2021-01-22 15:41:53.803\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:41:54.007\",\"methodProperties\":{\"operation\":\"DELETE\",\"table\":{\"schema\":\"public\",\"name\":\"ApproverDetails\",\"selected\":false},\"filters\":[{\"name\":\"Approver_Name\",\"isPrimaryKey\":true,\"nullable\":false,\"type\":\"VARCHAR\",\"operator\":\"EQ\",\"autoIncrement\":false}]},\"name\":\"deleteApproverDetails\",\"datasourceId\":\"1eb765cb-2618-43aa-b597-50d1009d954a\",\"id\":\"1735c3f6-b14a-43f7-bbd4-c865967683d9\",\"functionMeta\":{\"name\":\"deleteApproverDetails\",\"functionUrl\":\"/deleteApproverDetails\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"DELETE\",\"body\":[],\"parameters\":[{\"paramLocation\":2,\"type\":\"Query\",\"value\":\"\",\"key\":\"Approver_Name\",\"allowOverride\":true}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"secondDB\",\"createdOn\":\"2021-01-22 15:41:54.007\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:41:54.19\",\"methodProperties\":{\"filters\":[{\"name\":\"Approver_Name\",\"isPrimaryKey\":true,\"nullable\":false,\"type\":\"VARCHAR\",\"operator\":\"EQ\",\"autoIncrement\":false}],\"operation\":\"SELECT\",\"columns\":[{\"name\":\"Approver_Name\",\"isPrimaryKey\":true,\"nullable\":false,\"type\":\"VARCHAR\",\"operator\":\"EQ\",\"autoIncrement\":false},{\"name\":\"Approver_Email\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"PassCode\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"ApproverDetails\",\"selected\":false}},\"name\":\"selectApproverDetails\",\"datasourceId\":\"1eb765cb-2618-43aa-b597-50d1009d954a\",\"id\":\"c8f69342-8841-4707-9a34-cf10a5e2d229\",\"functionMeta\":{\"name\":\"selectApproverDetails\",\"functionUrl\":\"/selectApproverDetails\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":2,\"type\":\"Query\",\"value\":\"\",\"key\":\"Approver_Name\",\"allowOverride\":true},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"secondDB\",\"createdOn\":\"2021-01-22 15:41:54.19\"}"}
+    ],
+    "filePath": "C:\\Studio_Workspace_Andro2\\Workspace\\default_user\\Projects\\decisiontest\\Datasources\\secondDB.ds",
+    "content": {
+        "datasourceType": 0,
+        "modifiedOn": "2021-01-22 15:41:48.358",
+        "datasourceProperties": {
+            "connectionMeta": {
+                "instance": "",
+                "port": "5432",
+                "host": "localhost",
+                "driverName": "Thin",
+                "connectionType": false,
+                "sid": ""
+            },
+            "password": "latest",
+            "databaseName": "PersonalLoan",
+            "jdbcString": "jdbc:postgresql://localhost:5432/PersonalLoan",
+            "vendor": "PostgreSQL",
+            "poolSize": 3,
+            "isEncrypted": true,
+            "isJdbcUrl": false,
+            "datasourceId": "1eb765cb-2618-43aa-b597-50d1009d954a",
+            "active": 1,
+            "id": "d19cdbed-e3f1-482e-9581-19b44118a460",
+            "username": "postgres"
+        },
+        "name": "secondDB",
+        "id": "1eb765cb-2618-43aa-b597-50d1009d954a",
+        "applicationId": "ac1af9e2-ab06-4f87-8f80-ea24b078aa21",
+        "createdOn": "2021-01-22 15:41:48.358"
+    }
+}
