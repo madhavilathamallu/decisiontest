@@ -1,0 +1,39 @@
+{
+    "webServiceContent": [
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:18:07.262\",\"methodProperties\":{\"operation\":\"INSERT\",\"columns\":[{\"name\":\"DOB\",\"nullable\":false,\"type\":\"DATE\",\"autoIncrement\":false},{\"name\":\"Name\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"DateFormatCheck\",\"selected\":false}},\"name\":\"insertDateFormatCheck\",\"datasourceId\":\"6b9db0bf-0543-44a2-893a-f39daebfffec\",\"id\":\"6ac9df61-a8f0-4f16-af9e-bd92293843b3\",\"functionMeta\":{\"name\":\"insertDateFormatCheck\",\"functionUrl\":\"/insertDateFormatCheck\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"POST\",\"body\":[{\"paramLocation\":1,\"value\":\"\",\"key\":\"DOB\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"Name\",\"allowOverride\":true}],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"testdb\",\"createdOn\":\"2021-01-22 15:18:07.262\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:18:07.358\",\"methodProperties\":{\"operation\":\"SELECT\",\"columns\":[{\"name\":\"DOB\",\"nullable\":false,\"type\":\"DATE\",\"autoIncrement\":false},{\"name\":\"Name\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"DateFormatCheck\",\"selected\":false}},\"name\":\"selectAllDateFormatCheck\",\"datasourceId\":\"6b9db0bf-0543-44a2-893a-f39daebfffec\",\"id\":\"e8510eb1-1a22-43f9-a24b-b90245b0c425\",\"functionMeta\":{\"name\":\"selectAllDateFormatCheck\",\"functionUrl\":\"/selectAllDateFormatCheck\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"testdb\",\"createdOn\":\"2021-01-22 15:18:07.358\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:18:07.803\",\"methodProperties\":{\"filters\":[],\"operation\":\"UPDATE\",\"columns\":[{\"name\":\"DOB\",\"nullable\":false,\"type\":\"DATE\",\"autoIncrement\":false},{\"name\":\"Name\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"DateFormatCheck\",\"selected\":false}},\"name\":\"updateDateFormatCheck\",\"datasourceId\":\"6b9db0bf-0543-44a2-893a-f39daebfffec\",\"id\":\"2e7c1d13-6426-45ec-ab42-d60691d13abd\",\"functionMeta\":{\"name\":\"updateDateFormatCheck\",\"functionUrl\":\"/updateDateFormatCheck\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"PUT\",\"body\":[{\"paramLocation\":1,\"value\":\"\",\"key\":\"DOB\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"Name\",\"allowOverride\":true}],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"testdb\",\"createdOn\":\"2021-01-22 15:18:07.803\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:18:07.874\",\"methodProperties\":{\"operation\":\"DELETE\",\"table\":{\"schema\":\"public\",\"name\":\"DateFormatCheck\",\"selected\":false},\"filters\":[]},\"name\":\"deleteDateFormatCheck\",\"datasourceId\":\"6b9db0bf-0543-44a2-893a-f39daebfffec\",\"id\":\"392d3ac7-c257-41a2-a8ce-f33c0af28ca9\",\"functionMeta\":{\"name\":\"deleteDateFormatCheck\",\"functionUrl\":\"/deleteDateFormatCheck\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"DELETE\",\"body\":[],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"testdb\",\"createdOn\":\"2021-01-22 15:18:07.874\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-22 15:18:07.941\",\"methodProperties\":{\"filters\":[],\"operation\":\"SELECT\",\"columns\":[{\"name\":\"DOB\",\"nullable\":false,\"type\":\"DATE\",\"autoIncrement\":false},{\"name\":\"Name\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"DateFormatCheck\",\"selected\":false}},\"name\":\"selectDateFormatCheck\",\"datasourceId\":\"6b9db0bf-0543-44a2-893a-f39daebfffec\",\"id\":\"8765b743-9d55-4c60-8c48-093e5ec3edb0\",\"functionMeta\":{\"name\":\"selectDateFormatCheck\",\"functionUrl\":\"/selectDateFormatCheck\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"testdb\",\"createdOn\":\"2021-01-22 15:18:07.941\"}"}
+    ],
+    "filePath": "C:\\Studio_WorkspaceNew\\Workspace\\default_user\\Projects\\decisiontest\\Datasources\\testdb.ds",
+    "content": {
+        "datasourceType": 0,
+        "modifiedOn": "2021-01-22 15:18:02.074",
+        "datasourceProperties": {
+            "connectionMeta": {
+                "instance": "",
+                "port": "5432",
+                "host": "localhost",
+                "driverName": "Thin",
+                "connectionType": false,
+                "sid": ""
+            },
+            "password": "p@ssW0rd",
+            "databaseName": "MadhuDB",
+            "jdbcString": "jdbc:postgresql://localhost:5432/MadhuDB",
+            "vendor": "PostgreSQL",
+            "poolSize": 3,
+            "isEncrypted": true,
+            "isJdbcUrl": false,
+            "datasourceId": "6b9db0bf-0543-44a2-893a-f39daebfffec",
+            "active": 1,
+            "id": "6b802a37-2255-422a-988f-1ef941d11e42",
+            "username": "postgres"
+        },
+        "name": "testdb",
+        "id": "6b9db0bf-0543-44a2-893a-f39daebfffec",
+        "applicationId": "e733dbd0-5842-4f9b-af79-18dd00b901c6",
+        "createdOn": "2021-01-22 15:18:02.074"
+    }
+}
